@@ -1,0 +1,19 @@
+# Environment variables (RAHASIA - jangan sampai ke-push!)
+.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+
+# Database files
+*.db
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+config.json 
+config.json 

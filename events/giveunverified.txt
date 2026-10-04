@@ -1,0 +1,62 @@
+const config = require('../config.json');
+
+module.exports = {
+  name: 'giveunverified',
+  description: 'Memberikan role ke semua member yang belum memiliki role tersebut',
+
+  async execute(message) {
+
+    const ADMIN_ROLE_ID = config.ADMIN_ROLE_ID;
+    const TARGET_ROLE_ID = config.GOKAIFRIENDS_ROLE_ID;
+    const COMMAND_CHANNEL_ID = config.COMMAND_CHANNEL_ID;
+
+    // 🔒 Harus di channel tertentu
+    if (message.channel.id !== COMMAND_CHANNEL_ID) {
+      return message.reply(`⚠️ Gunakan command ini di <#${COMMAND_CHANNEL_ID}>`);
+    }
+
+    // 🔒 Harus punya role admin tertentu
+    if (!message.member.roles.cache.has(ADMIN_ROLE_ID)) {
+      return message.reply('❌ Kamu tidak punya izin menggunakan command ini.');
+    }
+
+    const role = message.guild.roles.cache.get(TARGET_ROLE_ID);
+    if (!role) {
+      return message.reply('❌ Role target tidak ditemukan.');
+    }
+
+    // Kirim pesan proses dulu
+    const loadingMsg = await message.channel.send('⏳ Sedang memproses pembagian role...');
+
+    try {
+      await message.guild.members.fetch();
+    } catch (err) {
+      return loadingMsg.edit('❌ Gagal mengambil data member. Aktifkan Server Members Intent.');
+    }
+
+    let count = 0;
+
+    const members = message.guild.members.cache.filter(member =>
+      !member.user.bot &&
+      !member.roles.cache.has(TARGET_ROLE_ID) &&
+      member.manageable
+    );
+
+    for (const [, member] of members) {
+      try {
+        await member.roles.add(role);
+        count++;
+      } catch (err) {
+        console.log(`❌ Gagal kasih role ke ${member.user.tag}`);
+      }
+    }
+
+    if (count === 0) {
+      return loadingMsg.edit(`ℹ️ Semua member sudah memiliki role ${role}.`);
+    }
+
+    return loadingMsg.edit(
+      `✅ Berhasil membagikan role ${role} ke ${count} orang.`
+    );
+  },
+};

@@ -1,0 +1,87 @@
+const {
+  AttachmentBuilder,
+  ActionRowBuilder,
+  ButtonBuilder,
+  ButtonStyle
+} = require("discord.js");
+const path = require("path");
+const { loadData, saveData } = require("../utils/absenData");
+const { buildEmbed } = require("../utils/absenEmbed");
+const { generateAbsenImage } = require("../utils/absenCanvas");
+const config = require("../config.json");
+
+module.exports = (client) => {
+  setInterval(async () => {
+    const data = loadData();
+    if (!data.date || !data.users.length) return;
+
+    const channel = client.channels.cache.get(config.ABSEN_CHANNEL_ID);
+    if (!channel) return;
+
+    let msg = null;
+    if (data.messageId) {
+      msg = await channel.messages.fetch(data.messageId).catch(() => null);
+    }
+
+    const page = data.page || 0;
+    const perPage = config.ABSEN_PER_PAGE;
+
+    const totalPage = Math.max(
+      1,
+      Math.ceil(data.users.length / perPage)
+    );
+
+    const startIndex = page * perPage;
+    const users = data.users.slice(startIndex, startIndex + perPage);
+
+    const buffer = await generateAbsenImage(
+      users,
+      path.join(__dirname, "../assets/jam.png"),
+      startIndex,
+      data.date
+    );
+
+    const attachment = new AttachmentBuilder(buffer, {
+      name: "absen.png"
+    });
+
+    const components =
+      totalPage > 1
+        ? [
+            new ActionRowBuilder().addComponents(
+              new ButtonBuilder()
+                .setCustomId(`absen_prev:${data.date}`)
+                .setLabel("Prev")
+                .setStyle(ButtonStyle.Secondary)
+                .setDisabled(page === 0),
+              new ButtonBuilder()
+                .setCustomId(`absen_next:${data.date}`)
+                .setLabel("Next")
+                .setStyle(ButtonStyle.Secondary)
+                .setDisabled(page + 1 >= totalPage)
+            )
+          ]
+        : [];
+
+    if (!msg) {
+      const sent = await channel.send({
+        embeds: [
+          buildEmbed(data, page).setImage("attachment://absen.png")
+        ],
+        files: [attachment],
+        components
+      });
+      data.messageId = sent.id;
+      saveData(data);
+      return;
+    }
+
+    await msg.edit({
+      embeds: [
+        buildEmbed(data, page).setImage("attachment://absen.png")
+      ],
+      files: [attachment],
+      components
+    });
+  }, 60_000);
+};

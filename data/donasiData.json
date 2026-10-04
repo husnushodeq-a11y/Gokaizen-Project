@@ -1,0 +1,384 @@
+{
+  "1342852231254507590": {
+    "donors": {
+      "u:1439916827210813480": {
+        "userId": "1439916827210813480",
+        "total": 200000,
+        "count": 2,
+        "firstAt": 1785549039595,
+        "lastAt": 1789276537143,
+        "history": [
+          {
+            "amount": 100000,
+            "at": 1785549039595,
+            "tier": "CRAZY RICH",
+            "by": "1216785168904224882",
+            "text": null
+          },
+          {
+            "amount": 100000,
+            "at": 1789276537143,
+            "tier": "CRAZY RICH",
+            "by": "1404025851737014272",
+            "text": null
+          }
+        ],
+        "granted": {
+          "CRAZY RICH": 2
+        }
+      },
+      "u:1493149389282345001": {
+        "userId": "1493149389282345001",
+        "total": 150000,
+        "count": 2,
+        "firstAt": 1785563821767,
+        "lastAt": 1785667805110,
+        "history": [
+          {
+            "amount": 100000,
+            "at": 1785563821767,
+            "tier": "CRAZY RICH",
+            "by": "283985728948666368",
+            "text": null
+          },
+          {
+            "amount": 50000,
+            "at": 1785667805110,
+            "tier": "CRAZY RICH",
+            "by": "283985728948666368",
+            "text": null
+          }
+        ],
+        "granted": {
+          "CRAZY RICH": 1
+        }
+      },
+      "u:426714175319048193": {
+        "userId": "426714175319048193",
+        "total": 100000,
+        "count": 1,
+        "firstAt": 1785600503672,
+        "lastAt": 1785600503672,
+        "history": [
+          {
+            "amount": 100000,
+            "at": 1785600503672,
+            "tier": "CRAZY RICH",
+            "by": "569981849380847618",
+            "text": null
+          }
+        ],
+        "granted": {
+          "CRAZY RICH": 1
+        }
+      },
+      "u:1342467785975922840": {
+        "userId": "1342467785975922840",
+        "total": 125000,
+        "count": 2,
+        "firstAt": 1785661910443,
+        "lastAt": 1785664715791,
+        "history": [
+          {
+            "amount": 25000,
+            "at": 1785661910443,
+            "tier": null,
+            "by": "283985728948666368",
+            "text": null
+          },
+          {
+            "amount": 100000,
+            "at": 1785664715791,
+            "tier": "CRAZY RICH",
+            "by": "430282227293749250",
+            "text": null
+          }
+        ],
+        "granted": {
+          "CRAZY RICH": 1
+        }
+      },
+      "u:402324162758311949": {
+        "userId": "402324162758311949",
+        "total": 100000,
+        "count": 1,
+        "firstAt": 1785707538168,
+        "lastAt": 1785707538168,
+        "history": [
+          {
+            "amount": 100000,
+            "at": 1785707538168,
+            "tier": "CRAZY RICH",
+            "by": "283985728948666368",
+            "text": null
+          }
+        ],
+        "granted": {
+          "CRAZY RICH": 1
+        }
+      },
+      "u:466199828620247061": {
+        "userId": "466199828620247061",
+        "total": 750000,
+        "count": 2,
+        "firstAt": 1785708016793,
+        "lastAt": 1785846671158,
+        "history": [
+          {
+            "amount": 100000,
+            "at": 1785708016793,
+            "tier": "CRAZY RICH",
+            "by": "430282227293749250",
+            "text": null
+          },
+          {
+            "amount": 650000,
+            "at": 1785846671158,
+            "tier": "SULTAN",
+            "by": "1424123647286575235",
+            "text": null
+          }
+        ],
+        "granted": {
+          "CRAZY RICH": 1,
+          "SULTAN": 1
+        }
+      },
+      "u:1121746807106580510": {
+        "userId": "1121746807106580510",
+        "total": 100000,
+        "count": 1,
+        "firstAt": 1785782296022,
+        "lastAt": 1785782296022,
+        "history": [
+          {
+            "amount": 100000,
+            "at": 1785782296022,
+            "tier": "CRAZY RICH",
+            "by": "1424123647286575235",
+            "text": null
+          }
+        ],
+        "granted": {
+          "CRAZY RICH": 1
+        }
+      },
+      "u:1389535579779371110": {
+        "userId": "1389535579779371110",
+        "total": 100000,
+        "count": 1,
+        "firstAt": 1785801803406,
+        "lastAt": 1785801803406,
+        "history": [
+          {
+            "amount": 100000,
+            "at": 1785801803406,
+            "tier": "CRAZY RICH",
+            "by": "430282227293749250",
+            "text": null
+          }
+        ],
+        "granted": {
+          "CRAZY RICH": 1
+        }
+      },
+      "u:1373289081135431710": {
+        "userId": "1373289081135431710",
+        "total": 140000,
+        "count": 2,
+        "firstAt": 1785847792589,
+        "lastAt": 1786967648129,
+        "history": [
+          {
+            "amount": 130000,
+            "at": 1785847792589,
+            "tier": "CRAZY RICH",
+            "by": "1404025851737014272",
+            "text": null
+          },
+          {
+            "amount": 10000,
+            "at": 1786967648129,
+            "tier": "CRAZY RICH",
+            "by": "1404025851737014272",
+            "text": null
+          }
+        ],
+        "granted": {
+          "CRAZY RICH": 1
+        }
+      },
+      "u:1224706618445529180": {
+        "userId": "1224706618445529180",
+        "total": 35000,
+        "count": 1,
+        "firstAt": 1786912982669,
+        "lastAt": 1786912982669,
+        "history": [
+          {
+            "amount": 35000,
+            "at": 1786912982669,
+            "tier": "SOCIALITE",
+            "by": "1216785168904224882",
+            "text": null
+          }
+        ],
+        "granted": {
+          "SOCIALITE": 1
+        }
+      },
+      "u:771577383026819093": {
+        "userId": "771577383026819093",
+        "total": 150000,
+        "count": 1,
+        "firstAt": 1788052458955,
+        "lastAt": 1788052458955,
+        "history": [
+          {
+            "amount": 150000,
+            "at": 1788052458955,
+            "tier": "CRAZY RICH",
+            "by": "1404025851737014272",
+            "text": null
+          }
+        ],
+        "granted": {
+          "CRAZY RICH": 1
+        }
+      },
+      "u:1476247424535105558": {
+        "userId": "1476247424535105558",
+        "total": 35000,
+        "count": 1,
+        "firstAt": 1789124524974,
+        "lastAt": 1789124524974,
+        "history": [
+          {
+            "amount": 35000,
+            "at": 1789124524974,
+            "tier": "SOCIALITE",
+            "by": "1216785168904224882",
+            "text": null
+          }
+        ],
+        "granted": {
+          "SOCIALITE": 1
+        }
+      },
+      "u:1489191589288083557": {
+        "userId": "1489191589288083557",
+        "total": 100000,
+        "count": 1,
+        "firstAt": 1789689536970,
+        "lastAt": 1789689536970,
+        "history": [
+          {
+            "amount": 100000,
+            "at": 1789689536970,
+            "tier": "CRAZY RICH",
+            "by": "834538212273422367",
+            "text": null
+          }
+        ],
+        "granted": {
+          "CRAZY RICH": 1
+        }
+      },
+      "u:1375838007076061376": {
+        "userId": "1375838007076061376",
+        "total": 100000,
+        "count": 1,
+        "firstAt": 1789698492139,
+        "lastAt": 1789698492139,
+        "history": [
+          {
+            "amount": 100000,
+            "at": 1789698492139,
+            "tier": "CRAZY RICH",
+            "by": "1404025851737014272",
+            "text": null
+          }
+        ],
+        "granted": {
+          "CRAZY RICH": 1
+        }
+      },
+      "u:1139830117145776198": {
+        "userId": "1139830117145776198",
+        "total": 35000,
+        "count": 2,
+        "firstAt": 1789791757167,
+        "lastAt": 1789791925716,
+        "history": [
+          {
+            "amount": 35000,
+            "at": 1789791757167,
+            "tier": null,
+            "by": "1375838007076061376",
+            "text": null
+          },
+          {
+            "amount": 35000,
+            "at": 1789791925716,
+            "tier": "SOCIALITE",
+            "by": "1375838007076061376",
+            "text": null
+          }
+        ],
+        "granted": {
+          "SOCIALITE": 1
+        }
+      },
+      "n:<@&1475502875428786288>narusubaru": {
+        "name": "<@&1475502875428786288>narusubaru",
+        "total": 100000,
+        "count": 1,
+        "lastAt": 1790351651883,
+        "granted": {
+          "CRAZY RICH": 1
+        }
+      },
+      "n:@narusubaru": {
+        "name": "@narusubaru",
+        "total": 100000,
+        "count": 1,
+        "lastAt": 1790351684295,
+        "granted": {
+          "CRAZY RICH": 1
+        }
+      },
+      "n:@<828663165025517579>": {
+        "name": "@<828663165025517579>",
+        "total": 100000,
+        "count": 1,
+        "lastAt": 1790351779995,
+        "granted": {
+          "CRAZY RICH": 1
+        }
+      },
+      "u:828663165025517579": {
+        "userId": "828663165025517579",
+        "total": 100000,
+        "count": 1,
+        "firstAt": 1790352272930,
+        "lastAt": 1790352272930,
+        "history": [
+          {
+            "amount": 100000,
+            "at": 1790352272930,
+            "tier": "CRAZY RICH",
+            "by": "1118919403711508621",
+            "text": null
+          }
+        ],
+        "granted": {
+          "CRAZY RICH": 1
+        }
+      }
+    },
+    "board": {
+      "channelId": "1447802692671111208",
+      "messageId": "1532863166659170566"
+    }
+  }
+}

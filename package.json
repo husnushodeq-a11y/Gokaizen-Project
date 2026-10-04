@@ -1,0 +1,30 @@
+{
+  "name": "bot-store-fazmuir-v2",
+  "version": "1.0.0",
+  "description": "share bot discord store fazmuir v2 ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Fazmuir",
+  "dependencies": {
+    "@babel/runtime": "^7.28.4",
+    "@distube/soundcloud": "^2.0.4",
+    "@distube/spotify": "^2.0.2",
+    "@distube/yt-dlp": "^2.0.1",
+    "@google/genai": "^1.52.0",
+    "axios": "^1.10.0",
+    "better-sqlite3": "^12.11.1",
+    "canvas": "^3.1.1",
+    "dayjs": "^1.11.13",
+    "discord-rpc": "^4.0.1",
+    "discord.js": "^14.20.0",
+    "distube": "^5.0.7",
+    "dotenv": "^17.4.2",
+    "expres": "^0.0.5",
+    "express": "^5.2.1",
+    "form-data": "^4.0.3",
+    "jimp": "^0.16.1",
+    "node-fetch": "^3.3.2"
+  }
+}

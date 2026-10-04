@@ -1,0 +1,506 @@
+{
+  "topvoice10from4cat": {
+    "guildId": "1342852231254507590",
+    "channelId": "1412815318883238110",
+    "messageId": "1528783999768596591",
+    "categoryIds": [
+      "1461294389060964394",
+      "1369159202911813702",
+      "1363375180272898189",
+      "1403737616939225220",
+      "1371883954163945512"
+    ]
+  },
+  "gbm_status": {
+    "guildId": "1342852231254507590",
+    "channelId": "1450097226318741725",
+    "messageId": "1528785758876340255"
+  },
+  "voiceTime": {
+    "1352265705625485424": {
+      "totalMs": 0,
+      "activeSince": 1771594434723,
+      "memberCount": 1
+    },
+    "1486877368483057704": {
+      "totalMs": 0,
+      "activeSince": 1777407085536,
+      "memberCount": 5
+    },
+    "1527258582687416370": {
+      "totalMs": 0,
+      "activeSince": 1786903424409,
+      "memberCount": 6
+    },
+    "1498777707213885491": {
+      "totalMs": 0,
+      "activeSince": 1788495700309,
+      "memberCount": 14
+    },
+    "1526481193732800654": {
+      "totalMs": 0,
+      "activeSince": 1788740507663,
+      "memberCount": 4
+    },
+    "1523652722224791603": {
+      "totalMs": 0,
+      "activeSince": 1788756029004,
+      "memberCount": 9
+    },
+    "1543278892725309462": {
+      "totalMs": 0,
+      "activeSince": 1788766667829,
+      "memberCount": 2
+    },
+    "1461294184894824560": {
+      "totalMs": 0,
+      "activeSince": 1788784639855,
+      "memberCount": 2
+    },
+    "1522851732491735111": {
+      "totalMs": 0,
+      "activeSince": 1788861716761,
+      "memberCount": 4
+    },
+    "1509096515921121300": {
+      "totalMs": 0,
+      "activeSince": 1788966426173,
+      "memberCount": 1
+    },
+    "1547771222652092477": {
+      "totalMs": 0,
+      "activeSince": 1789087816748,
+      "memberCount": 3
+    },
+    "1539612580161785977": {
+      "totalMs": 0,
+      "activeSince": 1789141568315,
+      "memberCount": 3
+    },
+    "1548889345186996264": {
+      "totalMs": 0,
+      "activeSince": 1789354397694,
+      "memberCount": 6
+    },
+    "1548908214681206784": {
+      "totalMs": 0,
+      "activeSince": 1789358897171,
+      "memberCount": 3
+    },
+    "1548936814323310752": {
+      "totalMs": 0,
+      "activeSince": 1789365715040,
+      "memberCount": 6
+    },
+    "1549434281435078798": {
+      "totalMs": 0,
+      "activeSince": 1789484321359,
+      "memberCount": 3
+    },
+    "1549434494501650654": {
+      "totalMs": 0,
+      "activeSince": 1789484371613,
+      "memberCount": 3
+    },
+    "1549435812343709786": {
+      "totalMs": 0,
+      "activeSince": 1789484685597,
+      "memberCount": 6
+    },
+    "1433782028985176185": {
+      "totalMs": 0,
+      "activeSince": 1789496489278,
+      "memberCount": 1
+    },
+    "1549658429604368414": {
+      "totalMs": 0,
+      "activeSince": 1789537761512,
+      "memberCount": 1
+    },
+    "1549673087644205056": {
+      "totalMs": 0,
+      "activeSince": 1789541371521,
+      "memberCount": 3
+    },
+    "1549698226062364683": {
+      "totalMs": 0,
+      "activeSince": 1789547249737,
+      "memberCount": 2
+    },
+    "1549705252674994226": {
+      "totalMs": 0,
+      "activeSince": 1789548943238,
+      "memberCount": 3
+    },
+    "1549429365543018539": {
+      "totalMs": 0,
+      "activeSince": 1789551963229,
+      "memberCount": 1
+    },
+    "1549546955628351580": {
+      "totalMs": 0,
+      "activeSince": 1789553126552,
+      "memberCount": 1
+    },
+    "1549427480840904735": {
+      "totalMs": 0,
+      "activeSince": 1789554348876,
+      "memberCount": 3
+    },
+    "1549439705505071124": {
+      "totalMs": 0,
+      "activeSince": 1789558650179,
+      "memberCount": 2
+    },
+    "1549552000931467364": {
+      "totalMs": 0,
+      "activeSince": 1789560347983,
+      "memberCount": 2
+    },
+    "1549768750184534078": {
+      "totalMs": 0,
+      "activeSince": 1789564064111,
+      "memberCount": 6
+    },
+    "1549802993640153178": {
+      "totalMs": 0,
+      "activeSince": 1789572228449,
+      "memberCount": 1
+    },
+    "1549801691245838376": {
+      "totalMs": 0,
+      "activeSince": 1789576529552,
+      "memberCount": 1
+    },
+    "1549444671321804900": {
+      "totalMs": 0,
+      "activeSince": 1789577410342,
+      "memberCount": 1
+    },
+    "1549836918085386271": {
+      "totalMs": 0,
+      "activeSince": 1789580316548,
+      "memberCount": 2
+    },
+    "1549839228953952356": {
+      "totalMs": 0,
+      "activeSince": 1789580867760,
+      "memberCount": 2
+    },
+    "1549840486741839993": {
+      "totalMs": 0,
+      "activeSince": 1789581167356,
+      "memberCount": 3
+    },
+    "1549983207720624219": {
+      "totalMs": 0,
+      "activeSince": 1789615194673,
+      "memberCount": 2
+    },
+    "1549984305604989020": {
+      "totalMs": 0,
+      "activeSince": 1789615456386,
+      "memberCount": 3
+    },
+    "1549984338689400913": {
+      "totalMs": 0,
+      "activeSince": 1789615464340,
+      "memberCount": 7
+    },
+    "1549989172801179699": {
+      "totalMs": 0,
+      "activeSince": 1789616617125,
+      "memberCount": 3
+    },
+    "1549990357716967444": {
+      "totalMs": 0,
+      "activeSince": 1789616904808,
+      "memberCount": 6
+    },
+    "1549993317222326402": {
+      "totalMs": 0,
+      "activeSince": 1789617605140,
+      "memberCount": 2
+    },
+    "1549996918539558982": {
+      "totalMs": 0,
+      "activeSince": 1789618463657,
+      "memberCount": 2
+    },
+    "1549998616855191573": {
+      "totalMs": 0,
+      "activeSince": 1789619040421,
+      "memberCount": 3
+    },
+    "1550004972807266384": {
+      "totalMs": 0,
+      "activeSince": 1789620383845,
+      "memberCount": 3
+    },
+    "1550005526828687451": {
+      "totalMs": 0,
+      "activeSince": 1789620515960,
+      "memberCount": 3
+    },
+    "1550010009776033802": {
+      "totalMs": 0,
+      "activeSince": 1789621585550,
+      "memberCount": 6
+    },
+    "1550013598699622410": {
+      "totalMs": 0,
+      "activeSince": 1789622440821,
+      "memberCount": 1
+    },
+    "1550016002840989846": {
+      "totalMs": 0,
+      "activeSince": 1789623013774,
+      "memberCount": 5
+    },
+    "1550016594510356530": {
+      "totalMs": 0,
+      "activeSince": 1789623154776,
+      "memberCount": 5
+    },
+    "1549991318292402266": {
+      "totalMs": 0,
+      "activeSince": 1789623470621,
+      "memberCount": 2
+    },
+    "1550019093921276024": {
+      "totalMs": 0,
+      "activeSince": 1789623750778,
+      "memberCount": 3
+    },
+    "1550019146064859234": {
+      "totalMs": 0,
+      "activeSince": 1789623763050,
+      "memberCount": 4
+    },
+    "1550020701216440390": {
+      "totalMs": 0,
+      "activeSince": 1789624133833,
+      "memberCount": 4
+    },
+    "1550020803511189545": {
+      "totalMs": 0,
+      "activeSince": 1789624158426,
+      "memberCount": 3
+    },
+    "1550021807837286410": {
+      "totalMs": 0,
+      "activeSince": 1789624397763,
+      "memberCount": 3
+    },
+    "1550022269340745739": {
+      "totalMs": 0,
+      "activeSince": 1789624507806,
+      "memberCount": 2
+    },
+    "1549983746348810321": {
+      "totalMs": 0,
+      "activeSince": 1789624992343,
+      "memberCount": 3
+    },
+    "1550025655842902117": {
+      "totalMs": 0,
+      "activeSince": 1789625318782,
+      "memberCount": 2
+    },
+    "1550025787107713084": {
+      "totalMs": 0,
+      "activeSince": 1789625346605,
+      "memberCount": 5
+    },
+    "1550025951096741931": {
+      "totalMs": 0,
+      "activeSince": 1789625385551,
+      "memberCount": 2
+    },
+    "1550026217216942151": {
+      "totalMs": 0,
+      "activeSince": 1789625448954,
+      "memberCount": 2
+    },
+    "1550022529731526726": {
+      "totalMs": 0,
+      "activeSince": 1789625606902,
+      "memberCount": 2
+    },
+    "1550027418666930236": {
+      "totalMs": 0,
+      "activeSince": 1789625735360,
+      "memberCount": 5
+    },
+    "1550027536296058950": {
+      "totalMs": 0,
+      "activeSince": 1789625763762,
+      "memberCount": 3
+    },
+    "1550027591757336638": {
+      "totalMs": 0,
+      "activeSince": 1789625777606,
+      "memberCount": 1
+    },
+    "1550028194675957770": {
+      "totalMs": 0,
+      "activeSince": 1789625920421,
+      "memberCount": 5
+    },
+    "1550030072193351710": {
+      "totalMs": 0,
+      "activeSince": 1789626368133,
+      "memberCount": 2
+    },
+    "1550031832895197224": {
+      "totalMs": 0,
+      "activeSince": 1789626787806,
+      "memberCount": 3
+    },
+    "1550032845710295171": {
+      "totalMs": 0,
+      "activeSince": 1789627029414,
+      "memberCount": 1
+    },
+    "1550033662333030420": {
+      "totalMs": 0,
+      "activeSince": 1789627224269,
+      "memberCount": 2
+    },
+    "1550035322933346314": {
+      "totalMs": 0,
+      "activeSince": 1789627632492,
+      "memberCount": 2
+    },
+    "1550035740761792602": {
+      "totalMs": 0,
+      "activeSince": 1789627719544,
+      "memberCount": 1
+    },
+    "1545278107932692510": {
+      "totalMs": 0,
+      "activeSince": 1789627789437,
+      "memberCount": 2
+    },
+    "1550036177707335760": {
+      "totalMs": 0,
+      "activeSince": 1789627823754,
+      "memberCount": 3
+    },
+    "1550035247670886490": {
+      "totalMs": 0,
+      "activeSince": 1789627829421,
+      "memberCount": 1
+    },
+    "1550036230643908722": {
+      "totalMs": 0,
+      "activeSince": 1789627836370,
+      "memberCount": 2
+    },
+    "1550037974853484607": {
+      "totalMs": 0,
+      "activeSince": 1789628252834,
+      "memberCount": 2
+    },
+    "1550037846050603048": {
+      "totalMs": 0,
+      "activeSince": 1789628317266,
+      "memberCount": 2
+    },
+    "1550038598227595296": {
+      "totalMs": 0,
+      "activeSince": 1789628403167,
+      "memberCount": 1
+    }
+  },
+  "premiumRolePanel": {
+    "guildId": "1342852231254507590",
+    "channelId": "1496646087266668636",
+    "messageId": "1530026291405787310"
+  },
+  "sambungkataEmbed": "1549853337732776079",
+  "alt_detection": {
+    "verifications": [
+      {
+        "guildId": "1342852231254507590",
+        "discordId": "1458478332986396854",
+        "discordCreatedAt": 1767798731801,
+        "ipHash": "2e1876c095acbc63aafb41d5e5cc18a1682cc5cbae83326b8318212fcabd7ce9",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+        "expiresAt": 1789627737596,
+        "fingerprintHash": "e16801a6aef0ebf059ff75b8db697d2f76ad7200532411a7e57a6dfae58b9417",
+        "status": "pending",
+        "createdAt": 1789626841440
+      },
+      {
+        "guildId": "1342852231254507590",
+        "discordId": "1458478332986396854",
+        "discordCreatedAt": 1767798731801,
+        "ipHash": "2e1876c095acbc63aafb41d5e5cc18a1682cc5cbae83326b8318212fcabd7ce9",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+        "expiresAt": 1789628378202,
+        "fingerprintHash": "e16801a6aef0ebf059ff75b8db697d2f76ad7200532411a7e57a6dfae58b9417",
+        "status": "pending",
+        "createdAt": 1789627483987
+      }
+    ],
+    "bans": [],
+    "flagLogs": [
+      {
+        "guildId": "1342852231254507590",
+        "discordId": "1458478332986396854",
+        "matchedDiscordIds": [],
+        "riskScore": 0,
+        "outcome": "audit-verification-verified",
+        "createdAt": 1789626841442
+      },
+      {
+        "guildId": "1342852231254507590",
+        "discordId": "1458478332986396854",
+        "matchedDiscordIds": [],
+        "riskScore": 0,
+        "outcome": "audit-banip-blacklist-only",
+        "executedBy": "466199828620247061",
+        "reason": "testing blacklist",
+        "createdAt": 1789627059684
+      },
+      {
+        "guildId": "1342852231254507590",
+        "discordId": "1458478332986396854",
+        "matchedDiscordIds": [],
+        "riskScore": 190,
+        "outcome": "audit-verification-auto-ban",
+        "createdAt": 1789627483989
+      }
+    ],
+    "guildConfig": {
+      "1342852231254507590": {
+        "unverifiedRoleId": null,
+        "verifiedRoleId": null,
+        "flaggedRoleId": null,
+        "modlogChannelId": "1478743405537267793",
+        "superadminRoleId": "1386874017105051759",
+        "mode": "audit",
+        "updatedAt": 1789570950652
+      }
+    },
+    "blacklistedSignals": [
+      {
+        "guildId": "1342852231254507590",
+        "ipHash": "2e1876c095acbc63aafb41d5e5cc18a1682cc5cbae83326b8318212fcabd7ce9",
+        "sourceDiscordId": "1458478332986396854",
+        "reason": "testing blacklist",
+        "createdAt": 1789627059681,
+        "active": true
+      },
+      {
+        "guildId": "1342852231254507590",
+        "fingerprintHash": "e16801a6aef0ebf059ff75b8db697d2f76ad7200532411a7e57a6dfae58b9417",
+        "sourceDiscordId": "1458478332986396854",
+        "reason": "testing blacklist",
+        "createdAt": 1789627059682,
+        "active": true
+      }
+    ]
+  }
+}
